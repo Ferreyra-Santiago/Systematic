@@ -9,10 +9,15 @@ Para ver el Proyecto utilizar
 
 Dependencias Del Proyecto:
 
+
 -[] Firebase
+
 -[] Material UI
+
 -[] Tailwind CSS
+
 -[] React-hot-toast
-[] Swiper
+
+-[] Swiper
 
 ![](https://github.com/Ferreyra-Santiago/Systematic/blob/master/systematic-img.jpg)
