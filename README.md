@@ -13,6 +13,6 @@ Dependencias Del Proyecto:
 -[] Material UI
 -[] Tailwind CSS
 -[] React-hot-toast
--[] Swiper
+[] Swiper
 
 ![](https://github.com/Ferreyra-Santiago/Systematic/blob/master/systematic-img.jpg)
