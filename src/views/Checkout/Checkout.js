@@ -34,9 +34,7 @@ const Checkout = () => {
           </div>
         ))}
       </div>
-      {cart.map((product) => (
-        <Form button={"Enviar"} productoNombre={product.nombre} Cantidad={product.quantity} PagoTotal={product.precio * product.quantity}/>
-      ))}
+      <Form button={"Enviar"}/>
     </div>
   );
 };

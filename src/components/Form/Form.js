@@ -16,7 +16,7 @@ const initialState = {
     infoAdicional: "",
 };
 
-const Form = ({button, productoNombre, Cantidad, PagoTotal}) => {
+const Form = ({button}) => {
 
     const [data, setData] = useState(initialState);
     const [orderID, setOrderID] = useState("");
@@ -30,10 +30,6 @@ const Form = ({button, productoNombre, Cantidad, PagoTotal}) => {
 
     const docRef = await addDoc(collection(db, "OrdenDeCompra"), {
         data,
-        productoNombre,
-        Cantidad,
-        PagoTotal
-
     });
 
     setOrderID(docRef.id);
