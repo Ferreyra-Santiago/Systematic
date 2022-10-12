@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div>
     <header>
-        <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-black">
+        <nav className="px-4 lg:px-6 py-2.5 dark:bg-slate-900">
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 
                     <Link to="/"><img src={logo} className=" h-24 sm:h-20" alt="Flowbite Logo" /></Link>
